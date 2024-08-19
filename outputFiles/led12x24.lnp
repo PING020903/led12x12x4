@@ -1,0 +1,6 @@
+".\outputFiles\STARTUP.obj",
+".\outputFiles\main.obj",
+".\outputFiles\GPIO_init.obj",
+".\outputFiles\ShowStrings.obj" 
+TO ".\outputFiles\led12x24" 
+PRINT(".\led12x24.m51") RAMSIZE(256) 

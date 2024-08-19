@@ -1,0 +1,2146 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\led12x24\led12x24.uvproj
+Project File Date:  08/16/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2450): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+SOURCE\SHOWSTRINGS.C(217): error C141: syntax error near 'char'
+SOURCE\SHOWSTRINGS.C(218): error C231: 'hello_cn_str': redefinition
+SOURCE\SHOWSTRINGS.C(218): error C141: syntax error near '{'
+SOURCE\SHOWSTRINGS.C(219): error C231: 'hello_cn': redefinition
+SOURCE\SHOWSTRINGS.C(220): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2450): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=126 code=11484
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 14 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2450): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=126 code=11517
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 14 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=8458
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 12 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=8458
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 12 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=8458
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 12 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2932): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=11637
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 15 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2932): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=126 code=11624
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 15 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2932): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=11593
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 15 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2932): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=11509
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 15 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2932): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=126 code=11496
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 15 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3428): error C141: syntax error near 'unsigned'
+SOURCE\GPIO_INIT.C(3428): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3436): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3437): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3438): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3439): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3440): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3441): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3444): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3445): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3446): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3447): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3448): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3449): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3450): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3451): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3452): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3453): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3454): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3455): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3456): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3457): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3458): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3459): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3461): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3462): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3463): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3464): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3465): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3466): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3467): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3468): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3471): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3472): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3473): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3477): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3478): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3479): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3480): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3481): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3482): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3483): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3484): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3485): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3486): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3487): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3488): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3489): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3490): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3491): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3492): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3493): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3494): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3495): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3496): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3497): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3498): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3499): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3501): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3502): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3503): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3504): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3505): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3506): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3507): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3508): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3511): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3512): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3513): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3517): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3518): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3519): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3520): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3521): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3522): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3523): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3524): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3525): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3526): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3527): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3528): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3529): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3530): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3531): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3532): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3533): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3534): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3535): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3536): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3537): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3538): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3539): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3541): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3542): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3543): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3544): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3545): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3546): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3547): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3548): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3551): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3552): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3553): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3557): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3558): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3559): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3560): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3561): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3562): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3563): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3564): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3565): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3566): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3567): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3568): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3569): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3570): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3571): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3572): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3573): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3574): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3575): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3576): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3577): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3578): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3579): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3581): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3582): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3583): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3584): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3585): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3586): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3587): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3588): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3591): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3592): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3593): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3597): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3598): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3599): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3600): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3601): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3602): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3603): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3604): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3605): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3606): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3607): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3608): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3609): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3610): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3611): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3612): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3613): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3614): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3615): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3616): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3617): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3618): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3619): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3621): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3622): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3623): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3624): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3625): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3626): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3627): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3628): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3631): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3632): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3633): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3637): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3638): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3639): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3640): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3641): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3642): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3643): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3644): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3645): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3646): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3647): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3648): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3649): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3650): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3651): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3652): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3653): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3654): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3655): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3656): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3657): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3658): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3659): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3661): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3662): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3663): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3664): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3665): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3666): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3667): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3668): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3671): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3672): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3673): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3677): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3678): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3680): error C202: 'bytePos': undefined identifier
+SOURCE\GPIO_INIT.C(3681): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3683): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3684): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3685): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3686): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3687): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3688): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3689): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3690): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3691): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3692): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3693): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3694): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3695): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3696): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3697): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3698): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3699): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3700): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3701): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3702): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3703): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3704): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3706): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3707): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3708): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3709): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3710): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3711): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3712): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3713): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3716): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3717): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3718): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3722): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3723): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3724): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3725): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3726): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3727): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3728): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3729): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3730): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3731): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3732): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3733): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3734): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3735): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3736): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3737): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3738): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3739): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3740): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3741): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3742): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3743): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3744): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3746): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3747): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3748): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3749): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3750): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3751): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3752): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3753): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3756): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3757): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3758): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3762): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3763): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3764): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3765): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3766): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3767): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3768): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3769): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3770): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3771): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3772): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3773): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3774): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3775): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3776): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3777): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3778): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3779): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3780): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3781): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3782): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3783): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3784): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3786): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3787): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3788): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3789): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3790): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3791): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3792): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3793): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3796): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3797): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3798): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3802): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3803): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3804): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3805): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3806): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3807): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3808): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3809): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3810): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3811): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3812): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3813): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3814): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3815): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3816): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3817): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3818): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3819): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3820): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3821): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3822): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3823): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3824): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3826): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3827): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3828): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3829): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3830): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3831): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3832): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3833): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3836): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3837): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3838): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3842): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3843): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3844): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3845): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3846): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3847): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3848): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3849): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3850): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3851): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3852): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3853): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3854): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3855): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3856): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3857): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3858): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3859): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3860): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3861): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3862): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3863): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3864): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3866): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3867): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3868): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3869): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3870): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3871): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3872): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3873): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3876): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3877): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3878): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3882): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3883): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3884): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3885): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3886): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3887): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3888): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3889): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3890): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3891): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3892): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3893): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3894): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3895): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3896): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3897): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3898): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3899): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3900): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3901): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3902): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3903): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3904): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3906): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3907): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3908): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3909): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3910): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3911): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3912): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3913): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3916): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3917): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3918): error C202: 'p3_data': undefined identifier
+compiling ShowStrings.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3428): error C141: syntax error near 'unsigned'
+SOURCE\GPIO_INIT.C(3428): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3436): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3437): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3438): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3439): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3440): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3441): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3444): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3445): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3446): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3447): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3448): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3449): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3450): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3451): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3452): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3453): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3454): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3455): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3456): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3457): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3458): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3459): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3461): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3462): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3463): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3464): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3465): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3466): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3467): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3468): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3471): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3472): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3473): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3477): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3478): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3479): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3480): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3481): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3482): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3483): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3484): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3485): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3486): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3487): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3488): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3489): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3490): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3491): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3492): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3493): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3494): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3495): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3496): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3497): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3498): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3499): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3501): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3502): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3503): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3504): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3505): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3506): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3507): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3508): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3511): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3512): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3513): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3517): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3518): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3519): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3520): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3521): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3522): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3523): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3524): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3525): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3526): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3527): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3528): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3529): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3530): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3531): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3532): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3533): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3534): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3535): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3536): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3537): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3538): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3539): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3541): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3542): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3543): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3544): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3545): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3546): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3547): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3548): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3551): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3552): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3553): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3557): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3558): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3559): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3560): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3561): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3562): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3563): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3564): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3565): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3566): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3567): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3568): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3569): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3570): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3571): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3572): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3573): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3574): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3575): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3576): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3577): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3578): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3579): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3581): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3582): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3583): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3584): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3585): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3586): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3587): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3588): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3591): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3592): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3593): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3597): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3598): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3599): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3600): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3601): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3602): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3603): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3604): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3605): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3606): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3607): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3608): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3609): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3610): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3611): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3612): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3613): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3614): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3615): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3616): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3617): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3618): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3619): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3621): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3622): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3623): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3624): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3625): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3626): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3627): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3628): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3631): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3632): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3633): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3637): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3638): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3639): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3640): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3641): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3642): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3643): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3644): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3645): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3646): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3647): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3648): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3649): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3650): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3651): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3652): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3653): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3654): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3655): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3656): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3657): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3658): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3659): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3661): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3662): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3663): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3664): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3665): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3666): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3667): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3668): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3671): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3672): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3673): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3677): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3678): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3680): error C202: 'bytePos': undefined identifier
+SOURCE\GPIO_INIT.C(3681): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3683): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3684): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3685): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3686): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3687): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3688): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3689): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3690): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3691): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3692): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3693): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3694): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3695): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3696): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3697): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3698): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3699): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3700): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3701): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3702): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3703): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3704): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3706): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3707): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3708): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3709): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3710): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3711): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3712): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3713): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3716): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3717): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3718): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3722): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3723): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3724): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3725): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3726): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3727): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3728): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3729): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3730): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3731): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3732): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3733): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3734): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3735): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3736): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3737): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3738): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3739): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3740): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3741): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3742): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3743): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3744): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3746): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3747): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3748): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3749): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3750): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3751): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3752): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3753): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3756): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3757): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3758): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3762): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3763): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3764): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3765): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3766): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3767): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3768): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3769): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3770): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3771): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3772): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3773): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3774): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3775): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3776): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3777): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3778): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3779): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3780): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3781): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3782): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3783): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3784): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3786): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3787): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3788): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3789): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3790): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3791): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3792): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3793): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3796): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3797): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3798): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3802): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3803): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3804): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3805): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3806): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3807): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3808): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3809): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3810): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3811): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3812): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3813): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3814): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3815): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3816): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3817): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3818): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3819): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3820): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3821): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3822): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3823): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3824): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3826): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3827): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3828): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3829): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3830): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3831): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3832): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3833): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3836): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3837): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3838): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3842): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3843): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3844): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3845): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3846): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3847): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3848): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3849): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3850): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3851): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3852): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3853): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3854): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3855): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3856): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3857): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3858): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3859): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3860): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3861): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3862): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3863): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3864): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3866): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3867): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3868): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3869): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3870): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3871): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3872): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3873): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3876): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3877): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3878): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3882): error C202: 'pos': undefined identifier
+SOURCE\GPIO_INIT.C(3883): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3884): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3885): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3886): error C202: 'p1_data': undefined identifier
+SOURCE\GPIO_INIT.C(3887): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3888): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3889): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3890): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3891): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3892): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3893): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3894): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3895): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3896): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3897): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3898): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3899): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3900): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3901): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3902): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3903): error C202: 'fr_temp1': undefined identifier
+SOURCE\GPIO_INIT.C(3904): error C202: 'p3_data': undefined identifier
+SOURCE\GPIO_INIT.C(3906): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3907): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3908): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3909): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3910): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3911): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3912): error C202: 'fr_temp2': undefined identifier
+SOURCE\GPIO_INIT.C(3913): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3916): error C202: 'p0_data': undefined identifier
+SOURCE\GPIO_INIT.C(3917): error C202: 'p2_data': undefined identifier
+SOURCE\GPIO_INIT.C(3918): error C202: 'p3_data': undefined identifier
+compiling ShowStrings.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3423): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=14614
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3423): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=14600
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3420): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=14585
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3420): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=14585
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3420): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=14645
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3394): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=14705
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3394): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=14826
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3394): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+Program Size: data=9.1 xdata=114 code=14705
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3394): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=125 code=14692
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2929): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3394): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN1_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=136 code=14679
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2903): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3368): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN1_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_SREEN3_TEST3?GPIO_INIT
+Program Size: data=9.1 xdata=141 code=15004
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2881): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3346): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3824): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN1_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=135 code=17879
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2881): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3346): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3824): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN1_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=135 code=17881
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2881): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3346): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3824): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN1_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN2_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=146 code=17868
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2881): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3346): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3824): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN1_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN3_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=146 code=17868
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2881): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3346): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3824): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN0_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_SCREEN3_TEST?GPIO_INIT
+Program Size: data=9.1 xdata=135 code=17881
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1948): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(2881): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3346): warning C280: 'bytes': unreferenced local variable
+SOURCE\GPIO_INIT.C(3824): warning C280: 'bytes': unreferenced local variable
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+Program Size: data=9.1 xdata=113 code=17907
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1965): error C202: 'NULL': undefined identifier
+SOURCE\GPIO_INIT.C(2906): error C202: 'NULL': undefined identifier
+SOURCE\GPIO_INIT.C(3378): error C202: 'NULL': undefined identifier
+SOURCE\GPIO_INIT.C(3863): error C202: 'NULL': undefined identifier
+compiling ShowStrings.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1965): error C202: 'null': undefined identifier
+SOURCE\GPIO_INIT.C(2906): error C202: 'NULL': undefined identifier
+SOURCE\GPIO_INIT.C(3378): error C202: 'NULL': undefined identifier
+SOURCE\GPIO_INIT.C(3863): error C202: 'NULL': undefined identifier
+compiling ShowStrings.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+SOURCE\GPIO_INIT.C(1966): error C202: 'null': undefined identifier
+compiling ShowStrings.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+Program Size: data=9.1 xdata=113 code=18107
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 16 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(63): warning C182: pointer to different objects
+compiling GPIO_init.c...
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_OFF?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+Program Size: data=9.1 xdata=113 code=18364
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(60): warning C182: pointer to different objects
+SOURCE\MAIN.C(62): warning C182: pointer to different objects
+SOURCE\MAIN.C(64): warning C182: pointer to different objects
+SOURCE\MAIN.C(66): warning C182: pointer to different objects
+compiling GPIO_init.c...
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+Program Size: data=9.1 xdata=113 code=18376
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 16 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(65): warning C182: pointer to different objects
+SOURCE\MAIN.C(69): warning C182: pointer to different objects
+SOURCE\MAIN.C(73): warning C182: pointer to different objects
+compiling GPIO_init.c...
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_OFF?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+Program Size: data=9.1 xdata=113 code=18364
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(65): warning C182: pointer to different objects
+SOURCE\MAIN.C(69): warning C182: pointer to different objects
+SOURCE\MAIN.C(73): warning C182: pointer to different objects
+compiling GPIO_init.c...
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+Program Size: data=9.1 xdata=113 code=18376
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 16 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+SOURCE\MAIN.C(61): warning C182: pointer to different objects
+SOURCE\MAIN.C(65): warning C182: pointer to different objects
+SOURCE\MAIN.C(69): warning C182: pointer to different objects
+SOURCE\MAIN.C(73): warning C182: pointer to different objects
+compiling GPIO_init.c...
+compiling ShowStrings.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETPULLUP?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETSCHMIDTTRIGGER?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETLEVELSHIFTINGSPEED?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GPIO_SETDRIVECURRENT?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_OFF?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ALLON?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_ALLON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_LEFTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_RIGHTON_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST1?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST2?GPIO_INIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_TWOBYTES_TEST3?GPIO_INIT
+Program Size: data=9.1 xdata=113 code=18364
+creating hex file from ".\outputFiles\led12x24"...
+".\outputFiles\led12x24" - 0 Error(s), 17 Warning(s).

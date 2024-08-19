@@ -1,0 +1,52 @@
+C51 COMPILER V9.00   USER_STRING                                                           08/11/2024 08:21:45 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE USER_STRING
+OBJECT MODULE PLACED IN .\outputFiles\User_string.obj
+COMPILER INVOKED BY: C:\Keil_v4\C51\BIN\C51.EXE source\User_string.c BROWSE INCDIR(.\include;.\include) DEBUG OBJECTEXTE
+                    -ND LISTINCLUDE PRINT(.\User_string.lst) OBJECT(.\outputFiles\User_string.obj)
+
+line level    source
+
+   1          #include "User_string.h"
+   1      =1  #ifndef _USER_STRING_H_
+   2      =1  #define _USER_STRING_H_
+   3      =1  unsigned char merge_value(unsigned char dest,
+   4      =1                                   const unsigned char src,
+   5      =1                                   const unsigned int bit);
+*** ERROR C141 IN LINE 5 OF .\INCLUDE\USER_STRING.H: syntax error near 'bit'
+   6      =1  
+   7      =1  #endif /* _USER_STRING_H_ */
+   2          
+   3          /**
+   4           * @brief 根据给定的值合并到目标字节的特定位置
+   5           *
+   6           * 该函数提供了一种根据源值(src)将位(bit)设置或重置到目标字节(dest)的简便方法
+             -。
+   7           * 当源值为0时，该函数将目标字节的特定位重置(即，与非操作)；
+   8           * 当源值为非0时，该函数将目标字节的特定位设置(即，或操作)。
+   9           *
+  10           * @param dest 目标字节，将被修改
+  11           * @param src 源值，决定是设置还是重置位
+  12           * @param bit 需要操作的位的位置
+  13           * @return unsigned char 返回修改后的目标字节值
+  14           */
+  15          unsigned char merge_value(unsigned char dest,
+  16                                    const unsigned char src,
+  17                                    const unsigned int bit)
+*** ERROR C141 IN LINE 17 OF SOURCE\USER_STRING.C: syntax error near 'bit'
+  18          {
+  19   1          switch (src)
+  20   1          {
+  21   2          case 0: // 当源值为0时，重置目标字节的特定位
+  22   2              return dest &= ~(1 << bit);
+*** ERROR C141 IN LINE 22 OF SOURCE\USER_STRING.C: syntax error near 'bit'
+  23   2          default: // 当源值为非0时，设置目标字节的特定位
+  24   2              return dest |= (1 << bit);
+*** ERROR C141 IN LINE 24 OF SOURCE\USER_STRING.C: syntax error near 'bit'
+  25   2          }
+  26   1      
+  27   1          return dest;
+  28   1      }
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
